@@ -31,6 +31,5 @@ public class Main {
             System.out.println(functions.getCount(answer));
             list.add(answer);
         }
-        functions.getDebtorsList(list);
     }
 }

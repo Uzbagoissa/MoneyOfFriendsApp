@@ -13,7 +13,7 @@ public class Functions {
         this.count = new HashMap<>();
     }
 
-    public HashMap<String, Integer> getDebtorsList(ArrayList<String> list) {
+    /*public HashMap<String, Integer> getDebtorsList(ArrayList<String> list) {
         for (int i = 0; i < list.size(); i++) {
             String[] main = list.get(i).split(";");
             String[] next = main[2].split(",");
@@ -26,9 +26,9 @@ public class Functions {
             }
         }
         return debtorsList;
-    }
+    }*/
 
-    public HashMap<String, Integer> getPairsDebtors() {
+    /*public HashMap<String, Integer> getPairsDebtors() {
         for (Map.Entry<String, Integer> entry1 : debtorsList.entrySet()) {
             for (Map.Entry<String, Integer> entry2 : debtorsList.entrySet()) {
                 String[] pair1 = entry1.getKey().split(",");
@@ -62,7 +62,7 @@ public class Functions {
 
     public HashMap<String, Integer> getDebtorsFinalList() {
         return debtorsFinalList;
-    }
+    }*/
 
     public HashMap<String, Integer> getCount(String answer) {
         String[] firstSplit = answer.split(";");
